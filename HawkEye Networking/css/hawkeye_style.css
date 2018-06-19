@@ -1,0 +1,111 @@
+body{
+	background: -webkit-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
+}
+
+.logo{
+	float:left;
+	width:500px;
+	height:60px;
+
+}
+
+header form{
+	float:right;
+}
+
+header{
+	background: -webkit-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
+	height:100px;
+	padding-top:25px;
+	color:white;
+}
+
+.navbar-default {
+	background:black;
+	border-color:black;
+}
+
+.navbar-default .navbar-nav li{
+	color:green;
+	font-weight:bolder;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color:black;
+	background-color:lightblue;
+	font-weight:bolder;
+}
+
+.panel-heading{
+	font-weight:bold;
+	color:white !important;
+	background:-webkit-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
+}
+
+.fa-caret-square-o-right{
+	color:red
+}
+
+.text-center{
+	text-align:left;
+	font-weight:bold;
+}
+
+.comment-avatar img{
+	width:40px;
+	margin-right:10px;
+}
+
+.bubble 
+{
+position: relative;
+width: 390px;
+height: 120px;
+padding: 0px;
+background: #004C8B;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.bubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 15px 22px 15px 0;
+border-color: transparent #004C8B;
+display: block;
+width: 0;
+z-index: 1;
+left: -22px;
+top: 45px;
+}
+
+.bubble p{
+	margin-left:10px;
+	padding:10px;
+	color:white;
+}
+
+.friends li{
+	list-style: none;
+	padding:5px;
+	display:inline;
+	float:left;
+}
+
+.friends img{
+	width:55px;
+}
+
+.group-item img{
+	width:250px;
+}
+
+footer{
+	text-align:center;
+	height:50px;
+	font-weight:bolder;
+	padding:15px;
+}
